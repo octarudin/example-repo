@@ -1,8 +1,2 @@
-# Example Repository
-This is a sample repo, hello world!!
-
-oh yeah, new words added.
-
-never ever store any private credentials! never!
-
-this works
+# Staging Branch
+This application version is being tested and approved by Quality Assurance (QA) division. Any test report will be sent to Developer Division as soon as possible by e-Mail.
