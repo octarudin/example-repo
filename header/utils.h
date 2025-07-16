@@ -11,14 +11,14 @@ using namespace registers;
 
 namespace utils
 {
-    void setKernelState(KernelState newState);
-    KernelState getKernelState();
-    void setMutexState(MutexState newState);
-    MutexState getMutexState();
+    void setKernelState(KernelState newState); // set kernel state
+    KernelState getKernelState(); // get kernel state
+    void setMutexState(MutexState newState); // set mutex state
+    MutexState getMutexState(); // get mutex state
     void printString(string param); // print a string
-    unsigned int getCounter();
-    void setCounter(unsigned int number);
-    void increaseCounter(); // increase 1 point
+    unsigned int getCounter(); // get counter value
+    void setCounter(unsigned int number); // set a counter number
+    void increaseCounter(); // increase counter value by 1 point
 
 } // namespace utils
 
