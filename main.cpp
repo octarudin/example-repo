@@ -1,9 +1,8 @@
-#include <iostream>
-
-using namespace std;
+#include "main.h"
 
 int main()
 {
-    cout << "hello world" << endl;
+    kernel::startApp();
+
     return 0;
 }
