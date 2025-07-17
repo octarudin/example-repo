@@ -30,9 +30,6 @@ namespace registers
         MutexState mutexState = MutexState_Opened; // Semaphore State
 
         unsigned int counter = 0; // counting from 0 to 100
-        unsigned char studentQuantity = 0; // the students quantity, max 255 students
-        unsigned char studentScore[255]; // the student score 0 to 100, max 255 students
-        char studentGrade[255]; // the student grade A to E, max 255 students
     };
     
     extern appReg reg; // apps register
