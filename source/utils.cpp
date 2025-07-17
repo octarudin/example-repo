@@ -37,17 +37,12 @@ unsigned int utils::getCounter()
     return ret;
 }
 
-void utils::setCounter(unsigned int number)
-{
-    reg.counter = number;
-}
-
-void utils::increaseCounter()
+void utils::setStudentQuantity(unsigned int number)
 {
     if (getMutexState() == MutexState_Opened)
     {
         setMutexState(MutexState_Locked);
-        reg.counter++;
+        reg.counter = number;
         setMutexState(MutexState_Opened);
     }
 }

@@ -16,12 +16,14 @@ void kernel::startApp()
 void kernel::init()
 {
     setKernelState(KernelState_Init);
-    setCounter(10);
+    setStudentQuantity(10);
     setKernelState(KernelState_Run);
 }
 
 void kernel::eventRoutine()
 {
+    fillStudentScore(); // cin >> reg.studentScore;
+    calculateStudentGrade();
+    printStudentGrade();
     printString("Hello world " + getCounter());
-    increaseCounter();
 }
