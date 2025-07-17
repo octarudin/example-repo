@@ -8,6 +8,7 @@
 /** put the libraries here **/
 #include <iostream>
 #include <windows.h>
+#include <string>
 #include "constants.h"
 #include "registers.h"
 #include "utils.h"
