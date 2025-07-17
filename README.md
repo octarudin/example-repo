@@ -1,4 +1,4 @@
-# Staging Branch
-This application version is being tested and approved by Quality Assurance (QA) Division. Any kind of test report will be sent to Developer Division as soon as possible by e-Mail.
+# Development Branch
 
-QA Division will release an approval report if the application is pass the test and pass the company or client standard. This apps version still needs an approval by IT Manager. Once approved, this apps is ready to merge with main branch. 
+This apps is already tested and approved by Developer Division. Please do not share or use this code at client workshop. The next step is staging. 
+
