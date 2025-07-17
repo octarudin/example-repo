@@ -17,8 +17,7 @@ namespace utils
     MutexState getMutexState(); // get mutex state
     void printString(string param); // print a string
     unsigned int getCounter(); // get counter value
-    void setCounter(unsigned int number); // set a counter number
-    void increaseCounter(); // increase counter value by 1 point
+    void setStudentQuantity(unsigned int number); // set a counter number
 
 } // namespace utils
 

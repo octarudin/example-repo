@@ -30,6 +30,7 @@ namespace registers
         MutexState mutexState = MutexState_Opened; // Semaphore State
 
         unsigned int counter = 0; // counting from 0 to 100
+        string studentScore;
     };
     
     extern appReg reg; // apps register
