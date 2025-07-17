@@ -6,7 +6,7 @@
  * calculating their students grade, giving them a grade
  * label (such as A, B, C, D, or E), and calculating the
  * statistics.  
- * Apps Version: v1.1.0
+ * Apps Version: v0.1.0
  * 
  */
 
